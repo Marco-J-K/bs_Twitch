@@ -7,7 +7,7 @@ for t=1:1:time
 if do_fluopoles
     this_image= imread(strcat(adresse,'\C1-data.tif'),t);
 
-    figure
+    figure('visible','off');
     imshow(imadjust(this_image))
 
         for nbr=1:1:nbr_bact
@@ -36,7 +36,7 @@ end
 %% Phase contract with contour
 this_image=imadjust(imread(strcat(adresse,'\C0-data.tif'),t));
 
-figure
+figure('visible','off');
 imshow(this_image)
 
     for nbr=1:1:nbr_bact

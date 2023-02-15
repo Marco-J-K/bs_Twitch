@@ -8,17 +8,17 @@
 // TO MODIFY:
 
 index_int=2; // normally 2, for divided images 4
-index_time=4; // normally 3, for divided images 5
+index_time=3; // normally 3, for divided images 5
 
-number=newArray("923","1023","1060","1604"); 
-Pil_type=newArray("fliC- mNG_PilG","fliC- mNG_PilG PilH_D52A","fliC- mNG_PilG pilA-","fliC- mNG_PilG pilA-2"); 
+number=newArray("1659"); 
+Pil_type=newArray("fliC- pilK- pCuAIgent_mNG_PilK"); 
 
 same_date = 1; // if same date 1, uses the first date/folder_name entry for all numbers, otherwise put date/folder_name for every item of the number vector
 
-folder_name=newArray("20220928 Oscillations 923 1023 1060 1604"); // per number use / instead of \
-date=newArray("20220928"); // per number
+folder_name=newArray("20230202 Still and Twitch 1752 1753 1659 1746 1747"); // per number use / instead of \
+date=newArray("20230202"); // per number
 
-match=".*min.*" // what to look for in file name
+match=".*_OD0p2_2h37_5s.*" // what to look for in file name
 dir_save="G:/Marco/bs_Twitch_data_storage/"; // !! change here the directory where the folders are!!
 only_PC=0 // 1 if YES, 0 if NO
 correct_drift=1 // 1 if YES, 0 if NO -> runs MultiStackReg_translation plugin, works well with multi channel stacks

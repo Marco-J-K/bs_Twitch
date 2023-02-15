@@ -10,11 +10,11 @@ save_dir = 'G:\Marco\bs_Twitch_results\alignment_motile\';
 
 %% Modify
 only_plot = 0; % if 0 reads, analyses and saves before plotting
-save_graphs = 1; % 1 saves the graphs, 0 does not save the graphs
+save_graphs = 0; % 1 saves the graphs, 0 does not save the graphs
 
 aspect = 1/3; % width of the graph
 
-limit_ratio=0.69; % ratio of intensity of the two poles; for all cells set limit to 1
+limit_ratio=1;%0.69; % ratio of intensity of the two poles; for all cells set limit to 1
 alignment_limit=0; % alignment factor threshold (counts cells with alignment factor above this value)
 
 %% Run save function

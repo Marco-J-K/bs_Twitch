@@ -14,9 +14,9 @@ dir_func='C:\Users\mkuehn\git\bs_Twitch\';
 save_dir = 'G:\Marco\bs_Twitch_results\pole_asymmetry_motile\';
 
 only_plot = 0; % if 0 reads, analyses and saves before plotting
-save_graphs = 1; % 1 saves the graphs, 0 does not save the graphs
+save_graphs = 0; % 1 saves the graphs, 0 does not save the graphs
 
-limite_ratio=0.69;
+limite_ratio=0.69; % threshold asymmetric vs symmetric; raton fluorescence intensity dim pole / bright pole; i.e. int dim pole below e.g. 70 % compared to bright pole --> protein localization is asymmetric
 useMax = 0; % Important: Added the option to use ratio of max pole intenstiy instead of mean. Function get_symm_asymm now requries useMax!
 
 %% Run save function

@@ -7,8 +7,7 @@ close all
 clear all
 
 %% To Modify:
-directory = 'G:\Marco\bs_locprof_data_storage\source_data_figure_S11\ReversalsCollisions\'; 
-% directory = 'G:\Marco\bs_Twitch_data_storage\'; % 'H:\Iscia_WS\PersatLAb-master\'; % Main directory with all Pil_type folders and all
+directory = 'G:\Marco\bs_Twitch_data_storage\'; % 'H:\Iscia_WS\PersatLAb-master\'; % Main directory with all Pil_type folders and all
 % Pil_types = {'1046 fliC- mNG_FimX PilH_D52E','1075 fliC- mNG_FimX PilH_D52A','1143 fliC- pilK-','1144 fliC- chpB-','1171 fliC- cpdA- pilG_D58E','1178 fliC- PilA_T8V','1211 fliC- cpdA- pilG_D58A','1245 fliC- mNG_FimX pilK-','1246 fliC- mNG_FimX chpB-','1255 fliC- pilK- + pJN105_mNG_PilK','1277 fliC- pilK- chpB-','1278 fliC- pilG- pilH- cpdA-','177 fliC-','232 fliC- pilH-','337 fliC- cpdA-','459 fliC- cpdA- pilG-','463 fliC- mNG_FimX'}; % name of the folder within directory
 
 cd(directory)

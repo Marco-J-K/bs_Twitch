@@ -28,7 +28,7 @@ plot_num_tracks = 0;
 more_than_SIX_replicates = 1; % if more than 6 replicates the colours are all black, if not set to 1 produces error
 
 only_plot = 0; % if 0 reads, analyses and saves before plotting
-save_graphs = 1; % 1 saves the graphs, 0 does not save the graphs
+save_graphs = 0; % 1 saves the graphs, 0 does not save the graphs
 
 %% Run save function
 addpath('functions');

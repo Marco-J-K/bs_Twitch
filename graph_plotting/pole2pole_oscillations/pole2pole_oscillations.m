@@ -14,10 +14,10 @@ time_early = "10min"; %"10min"; % has to match the "early" interval
 time_late = "70min"; %"60min"; % has to match the "late" interval
 
 y_ax_hist = 1; % sets the y axis of the histrograms
-y_ax_freq = 4; % sets the y axis of the total frequency plot and per cell frequency plot
+y_ax_freq = 3; % sets the y axis of the total frequency plot and per cell frequency plot
 
 only_plot = 0; % if 0 reads, analyses and saves before plotting
-do_save = 0; % if 0, doesn't save the graphs
+do_save = 1; % if 0, doesn't save the graphs
 
 % decide which plots to plot and save
 plot_histograms = 1;

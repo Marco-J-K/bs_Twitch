@@ -37,16 +37,16 @@ tos = "2h";
 plot_violin = 1; % plots distribution of single-track values as violin plot
 
 plot_speed = 1; % plots speed
-plot_polLoc = 0; % plots ratio polar intensity vs cytoplasm (polar localization motile index)
-plot_polLoc_speed = 0; % plots polar localization motile index vs speed, single track
+plot_polLoc = 1; % plots ratio polar intensity vs cytoplasm (polar localization motile index)
+plot_polLoc_speed = 1; % plots polar localization motile index vs speed, single track
 plot_polLoc_vs = 0; % plots polar localization motile index of channel 1 vs 2
-plot_polLoc_speed_ch1polar = 0; % I wouldn't do this for more than 1 strain
-plot_polLoc_vs_ch1polar = 0; % I wouldn't do this for more than 1 strain
-plot_polAsym = 0; % plots the ratio of polar intensities between poles 1-(dim / bright)=Asymmetry Index
-plot_polAsym_speed = 0; % plots polAsym vs speed
+plot_polLoc_speed_ch1polar = 1; % I wouldn't do this for more than 1 strain
+plot_polLoc_vs_ch1polar = 1; % I wouldn't do this for more than 1 strain
+plot_polAsym = 1; % plots the ratio of polar intensities between poles 1-(dim / bright)=Asymmetry Index
+plot_polAsym_speed = 1; % plots polAsym vs speed
 plot_polLoc_vs_polAsym = 0; % plots polar localization motile index of channel 1 vs asymmetry index channel 2 (speed colour-coded)
 
-save_csv = 1; % exports the concatenated data to a csv file 
+save_csv = 0; % exports the concatenated data to a csv file 
 
 rep_colour = 1; % if replicates are coloured separately, works for max 6 replicates
 type_ratio = "mean"; % "mean" or "max" or "total"

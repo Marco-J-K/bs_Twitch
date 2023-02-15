@@ -30,11 +30,11 @@ for d=1:1:size(dates,1) % sometimes has to be 1, sometimes 2, who knows why
             nbr_bact=size(BactID,1);
             [~,median_value_tmp,~]=Histogram(nbr_bact,Data_alignment);
             for nbr=1:1:nbr_bact    
-%                 ratio=cell_prop{nbr,9};
-%                 mean_ratio=mean(ratio);
-%                 if mean_ratio<limit_ratio % saves stuff only for tracks with mean intensity ratio of poles below limit_ratio (here: asymmetric)
+                ratio=cell_prop{nbr,9};
+                mean_ratio=mean(ratio);
+                if mean_ratio<limit_ratio % saves stuff only for tracks with mean intensity ratio of poles below limit_ratio (here: asymmetric)
                     Median_value=[Median_value;median_value_tmp(nbr)]; %calculat the median value of the alignment for each cell
-%                 end
+                end
             end
               alignment_counts(i,1)=d;
               alignment_counts(i,2)=folder;

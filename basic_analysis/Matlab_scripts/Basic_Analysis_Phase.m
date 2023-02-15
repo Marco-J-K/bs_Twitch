@@ -14,11 +14,11 @@ Pil_types = txt(:,1); % read as a cell with one column
 intervals = txt(:,3); % read as a cell with one column
 
 % Select what part of the script to run
-change_parameters_format = 0; % 1 if YES 0 if NO: this creates a 'parameters.mat' document with the info needed for the analysis
-do_BacStalk = 0; % 1 if YES 0 if NO
+change_parameters_format = 1; % 1 if YES 0 if NO: this creates a 'parameters.mat' document with the info needed for the analysis
+do_BacStalk = 1; % 1 if YES 0 if NO
 do_SaveVariables = 1;  % 1 if YES 0 if NO
 do_video = 1; % 1 if YES 0 if NO: creates movies with below conditions
-do_nonmoving = 1; % 1 if YES 0 if NO: makes movie of non-moving cells - just to check correct speed threshold
+do_nonmoving = 0; % 1 if YES 0 if NO: makes movie of non-moving cells - just to check correct speed threshold
 do_fluopoles = 0; % Has to be 0 here allways. No fluo in phase contrast!!!
 
 % for Backstalk:
@@ -50,7 +50,7 @@ for d=1:1:size(dates,1)
     folders=dir(adresse_data);
     num_folders=length(folders)-2;
 
-    for folder=1:1:1%num_folders
+    for folder=1:1:num_folders
       Pil_nbr=folder
         %% Step 1:Load data
         adresse=strcat(adresse_data,'\',num2str(Pil_nbr));

@@ -10,15 +10,15 @@
 
 // TO MODIFY:
 
-number=newArray("1542"); 
-Pil_type=newArray("fliC- mNG_PilG chpA_AAA");
+number=newArray("1143"); 
+Pil_type=newArray("fliC- pilK-"); 
 
-dates=newArray("20221103"); // once per whole number array
-interval=newArray("5s interval-10min","5s interval-70min"); // once per whole number array
+dates=newArray("20230125"); // once per whole number array
+interval=newArray("5s interval-2h37"); // once per whole number array
 dir_data="G:/Marco/bs_Twitch_data_storage/";
 
 do_fluocircles = 0;
-do_nonmoving = 1;
+do_nonmoving = 0;
 
 addition = ""; // addition to the filename "C_with_trajectory+addition+_1.tif", eg "_noSL". If no addition leave empty: ""
 
